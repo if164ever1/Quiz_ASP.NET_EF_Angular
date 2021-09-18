@@ -7,6 +7,7 @@ import { QuestionComponent } from './question/question.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { FormsModule } from '@angular/forms';
 
 import {MatInputModule} from '@angular/material/input';
 
@@ -16,7 +17,7 @@ import {MatInputModule} from '@angular/material/input';
     QuestionComponent
   ],
   imports: [
-    BrowserModule, MatInputModule, MatCardModule,
+    BrowserModule, MatInputModule, MatCardModule, FormsModule,
     AppRoutingModule,
     BrowserAnimationsModule, MatButtonModule
   ],
