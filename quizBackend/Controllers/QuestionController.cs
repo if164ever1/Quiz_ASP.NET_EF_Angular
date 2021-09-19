@@ -22,7 +22,7 @@ namespace quizBackend.Controllers
         [HttpPost]
         public void Post([FromBody] Models.Question  value) 
         {
-            context.Question.Add(new Models.Question() { Text = "test DB"});
+            context.Question.Add(value);
             context.SaveChanges();
         }
 
