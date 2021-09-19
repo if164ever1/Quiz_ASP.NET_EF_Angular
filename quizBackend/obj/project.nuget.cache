@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "iDs1bkayECNW2oHNvgAUhyVoAhz1+5a5XTP6/E8eYkplgw/z9hA1O+3aibCoUlASaZqEvKOlpRI6v2nqenpjkA==",
+  "dgSpecHash": "9Keqw7PT4LAtb5hObDlYNVP1OANWPfcBiFLVzjLieeA1tPUrZa0bEw5NMGaM2wJ6ZuDLq+Broc21NIkm88KwAg==",
   "success": true,
   "projectFilePath": "D:\\MY_Project\\.NET\\Quiz_ASP.NET_EF_Angular\\quizBackend\\quizBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\if164\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.10\\microsoft.entityframeworkcore.5.0.10.nupkg.sha512",
     "C:\\Users\\if164\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
     "C:\\Users\\if164\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.10\\microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
+    "C:\\Users\\if164\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.10\\microsoft.entityframeworkcore.inmemory.5.0.10.nupkg.sha512",
     "C:\\Users\\if164\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\if164\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\if164\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",

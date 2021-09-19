@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace quizBackend
 {
@@ -30,6 +31,7 @@ namespace quizBackend
                 builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
             }));
             services.AddMvc();
+            services.AddDbContext<QuizContext>(opt => opt.UseInMemoryDatabase("quize"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
