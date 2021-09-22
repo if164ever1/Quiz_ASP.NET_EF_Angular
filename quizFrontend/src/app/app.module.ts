@@ -13,15 +13,18 @@ import {MatInputModule} from '@angular/material/input';
 import { QuestionComponent } from './question/question.component';
 import { AppComponent } from './app.component';
 import { ApiService } from './api.service';
+import { QuestionsComponent } from './questions/questions.component';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
     AppComponent,
-    QuestionComponent
+    QuestionComponent,
+    QuestionsComponent
   ],
   imports: [
     BrowserModule, MatInputModule, MatCardModule, FormsModule,
-    AppRoutingModule, HttpClientModule, 
+    AppRoutingModule, HttpClientModule, MatListModule,
     BrowserAnimationsModule, MatButtonModule 
   ],
   providers: [ApiService],
